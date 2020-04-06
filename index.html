@@ -1,66 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="JS/jquery.js"></script>
     <script defer src="JS/index.js"></script>
-    <style>@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');</style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="logo"> 
-            <div class='triangle1'></div>
-            <div class='triangle1'></div>
-            <div class='triangle1'></div>
-            <div class='triangle1'></div>
-            <div class='triangle1'></div>
-            <h4 id="title">M.Sandberg</h4>
+        <div class="container">
+            <div class="logo">
+                <div class='triangle1'></div>
+                <div class='triangle1'></div>
+                <div class='triangle1'></div>
+                <div class='triangle1'></div>
+                <div class='triangle1'></div>
+                <h4 id="title">M.Sandberg</h4>
+            </div>
+            <header id="välkommenTill" data-aos="slide-up" data-aos-duration="2000" data-aos-offset="-200"
+                data-aos-delay="2000">
+                <h1>Välkommen Till</h1>
+                <h1 id="minSida">Min Sida</h1>
+            </header>
         </div>
-        <header id="välkommenTill" data-aos="slide-up" data-aos-duration="2000" data-aos-offset="-200" data-aos-delay="2000">
-            <h1>Välkommen Till</h1> 
-            <h1 id="minSida" >Min Sida</h1>
-        </header>
-    </div>
 
-    <div class="container1">
-        <header id="info1"  data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-offset="-200">
-            <h1 id="härÄr">Här är</h1> 
-            <h1 id="vadJagGjort" data-aos-delay="400">vad jag gjort.</h1> 
-        </header>
+        <div class="container1">
+            <header id="info1" data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-offset="-200">
+                <h1 id="härÄr">Här är</h1>
+                <h1 id="vadJagGjort" data-aos-delay="400">vad jag gjort.</h1>
+            </header>
+        </div>
+        <div class="loader-wrapper">
+            <div class='triangle'></div>
+            <div class='triangle'></div>
+            <div class='triangle'></div>
+            <div class='triangle'></div>
+            <div class='triangle'></div>
+        </div>
+        <div class="container2Wrapper">
+        <div class="container2">¨
+                <div id="p2" class="item_img-wrap"> <img src="assets/mobil1.png" alt="Bild på projekt" data-aos="zoom-in-up"
+                        class="item_img" id="mobil"></div>
+                <div id="p4" class="item_img-wrap"> <img src="assets/2020-03-31 12_52_21-Microsoft Edge.png"
+                    alt="Bild på projekt" data-aos="zoom-in-right" class="item_img"></div>
+                <div id="p5" class="item_img-wrap"> <img src="assets/2020-03-31 12_28_32-.png" alt="Bild på projekt"
+                    data-aos="zoom-in-right" class="item_img"></div>
+                <div id="p6" class="item_img-wrap"> <img src="assets/2020-03-31 12_27_10-Microsoft Edge.png"
+                    alt="Bild på projekt" data-aos="zoom-in-left" class="item_img"></div>
+                    <div id="p3" class="item_img-wrap"> <img src="assets/2020-03-31 12_52_44-.png" alt="Bild på projekt"
+                        data-aos="zoom-in-left" class="item_img"></div>
+        </div>
     </div>
-    <div class="loader-wrapper">
-        <div class='triangle'></div>
-        <div class='triangle'></div>
-        <div class='triangle'></div>
-        <div class='triangle'></div>
-        <div class='triangle'></div>
-    </div>
-    <div class="container2">
-        <img src="assets/mobil1.png" alt="Bild på projekt" id="p2" data-aos="zoom-in-up">
-        <img src="assets/2020-03-31 12_52_44-.png" alt="Bild på projekt" id="p3" data-aos="zoom-in-left">
-        <img src="assets/2020-03-31 12_52_21-Microsoft Edge.png" alt="Bild på projekt" id="p4" data-aos="zoom-in-right">
-        <img src="assets/2020-03-31 12_28_32-.png" alt="Bild på projekt" id="p5" data-aos="zoom-in-right">
-        <img src="assets/2020-03-31 12_27_10-Microsoft Edge.png" alt="Bild på projekt" id="p6" data-aos="zoom-in-left">
-    </div>
-    <div class="container3">
-        
-    </div>
-    <div class="container4">
-        
-    </div>
+        <div class="container3">
+            <div class="picture">
+                <img src="assets/mig.png" alt="Bild På Mig"  class="pic" data-aos="fade-down-right" data-aos-delay="650">
+                <img src="assets/mig.png" alt="Bild På Mig" class="pic" data-aos="fade-down-right" data-aos-delay="550">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic1" class="pic" data-aos="fade-down-right" data-aos-delay="500">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="450">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="400" >
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="350">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="300">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="250"> 
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic1" class="pic" data-aos="fade-down-right" data-aos-delay="200">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="150">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="100">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="50">
+                <img src="assets/mig.png" alt="Bild På Mig" id="pic2" class="pic" data-aos="fade-down-right" data-aos-delay="00" >
+            </div>
+            <header id="HärÄrJag">
+                <h1 >Här Är Jag</h1>
+            </header>
+        </div>
+        <div class="container4">
+        <section class="get-in-touch">
+            <h1 class="title">Hör av dig</h1>
+            <form class="contact-form row">
+               <div class="form-field col x-50">
+                  <input id="name" class="input-text js-input" type="text" required>
+                  <label class="label" for="name">Name</label>
+               </div>
+               <div class="form-field col x-50">
+                  <input id="email" class="input-text js-input" type="email" required>
+                  <label class="label" for="email">E-mail</label>
+               </div>
+               <div class="form-field col x-100">
+                  <input id="message" class="input-text js-input" type="text" required>
+                  <label class="label" for="message">Message</label>
+               </div>
+               <div class="form-field col x-100 align-center">
+                  <input class="submit-btn" type="submit" value="Submit">
+               </div>
+            </form>
+         </section>
+        </div>
 
-    <div id="follower">
-        <div id="circle1"></div>
-        <div id="circle2"></div>
-      </div>
+    </div>
+    
 </body>
+
 </html>
